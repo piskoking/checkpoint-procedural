@@ -1,0 +1,14 @@
+ALGORITHM tri_par_insertion
+VAR
+    array:  array_name : ARRAY_OF INTEGER[length];
+    key : INTEGER
+BEGIN
+FOR i FROM 0 TO array.length-1 STEP 1  DO
+    key = array[i];
+    j=i-1;
+        WHILE (T[0]..T[i-1] > x T[i-1] j ← i  ) DO
+        j > 0 et T[j - 1] > x T[j] ← T[j - 1]
+        j ← j - 1
+        END_WHILE
+        END_FOR
+END

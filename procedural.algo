@@ -1,0 +1,39 @@
+FUNCTION dot_product(v1,v2 : ARRAY_OF INTEGER[n]) : INTEGER
+    VAR
+        ps : INTEGER;
+        // ! ps na pas de valeur 
+    BEGIN
+        // *il faut initialiser la variable ps
+        ps:0 ;
+    FOR i FROM 0 TO v1.lenght STEP 1  DO
+        ps := ps + v1[i]*v2[i];
+        tab : (x1,x2)
+        // Soit U un vecteur il les coordoner (X1,X2,...,Xn)
+    END_FOR
+        RETURN ps ;
+    END
+
+
+
+ALGORITHM produit de point
+VAR
+    v1,v2 : ARRAY_OF INTEGER [n];
+    n :INTEGER;
+BEGIN
+    Write("ecrit la taille du tableau");
+    Read(n);
+    FOR i FROM 0 TO n-1 STEP 1  DO
+        Write("ecrit la coordone numero " v1[i]);
+        Read(v1[i]);
+    END_FOR
+    FOR i FROM 0 TO n-1 STEP 1 DO
+        Write("ecrit la coordone numero" v2[i])
+        Read(v2[i]);
+    END_FOR
+    // pour appeller une fonction 
+    //  nom_de_la_fonction (liste variable);
+    IF(dot_product(v1,v2) === 0){
+        WRITE ("les deux vecteurs sont orthogonaux");
+    }
+
+END
